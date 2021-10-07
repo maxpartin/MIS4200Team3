@@ -16,6 +16,58 @@
     white-space: normal;
 }
 
+
+/*Changing center to position text in the middle of flip boxes*/
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    background #999FF0
+}
+
+/*Flip box Css edit to change size and movement*/
+.flip-box {
+    background-color: transparent;
+    width: 250px;
+    height: 150px;
+    border: 1px solid #f1f1f1
+}
+
+.flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d
+}
+
+.flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+}
+
+.flip-box-front {
+    background-color: mediumpurple;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.flip-box-back {
+    background-color: ghostwhite;
+    color: black;
+    transform: rotateY(180deg);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+
 /* Set width on the form input elements since they're 100% wide by default */
 input,
 select,
