@@ -16,6 +16,11 @@
     white-space: normal;
 }
 
+.jumbotron {
+    background-size: cover;
+}
+
+
 
 /*Changing center to position text in the middle of flip boxes*/
 .center {
