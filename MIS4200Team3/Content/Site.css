@@ -5,8 +5,11 @@
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+
+    background-image: url(../Pictures/CentricBody.jpg);
+    display: normal;
+    background-size: cover;
+    background-color: black;
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -18,6 +21,8 @@
 
 .jumbotron {
     background-size: cover;
+    background-image: url(../Pictures/CentricJumbotron.jpg);
+    color:white;
 }
 
 
@@ -66,8 +71,8 @@
 }
 
 .flip-box-back {
-    background-color: ghostwhite;
-    color: black;
+    background-color: goldenrod;
+    color: white;
     transform: rotateY(180deg);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
