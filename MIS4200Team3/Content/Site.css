@@ -29,7 +29,7 @@ textarea {
 }
 
 .navbar-inverse {
-    background-color: rebeccapurple;
+    background-color: #2C1B5E;
 }
 
     .navbar-inverse .navbar-nav > li > a {
@@ -77,13 +77,13 @@ textarea {
 }
 
 .flip-box-front {
-    background-color: rebeccapurple;
+    background-color: #2C1B5E;
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 .flip-box-back {
-    background-color: goldenrod;
+    background-color: #FBB925;
     color: white;
     transform: rotateY(180deg);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
