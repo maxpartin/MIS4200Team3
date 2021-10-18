@@ -5,12 +5,40 @@
 }
 
 /* Set padding to keep content from hitting the edges */
+/*Added animation and color to background*/
 .body-content {
+    background: linear-gradient(53deg, #3c2466, #eac652);
+    background-size: 400% 400%;
+    -webkit-animation: webkitColorAnimation 11s ease infinite;
+    animation: keyframeAnimation 11s ease infinite;
+}
 
-    background-image: url(../Pictures/ITBody.jpg);
-    display: normal;
-    background-size: cover;
-    background-color: black;
+@-webkit-keyframes webkitColorAnimation {
+    0% {
+        background-position: 83% 0%
+    }
+
+    50% {
+        background-position: 18% 100%
+    }
+
+    100% {
+        background-position: 83% 0%
+    }
+}
+
+@keyframes keyframeAnimation {
+    0% {
+        background-position: 83% 0%
+    }
+
+    50% {
+        background-position: 18% 100%
+    }
+
+    100% {
+        background-position: 83% 0%
+    }
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -22,7 +50,7 @@
 
 .jumbotron {
     background-size: cover;
-    background-image: url(../Pictures/CentricJumbotron2.jpg);
+    background-image: url(../Pictures/CentricAbout.png);
     color:white;
 }
 

@@ -191,6 +191,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Pictures\CentricAbout.png" />
     <Content Include="Pictures\CentricBody.jpg" />
     <Content Include="Pictures\CentricJumbotron.jpg" />
     <Content Include="Pictures\CentricJumbotron2.jpg" />
@@ -198,6 +199,7 @@
     <Content Include="Pictures\CentricWallpaper.jpg" />
     <Content Include="Pictures\Columbus.jpg" />
     <Content Include="Pictures\ColumbusSkyline.jpg" />
+    <Content Include="Pictures\ConsultingImage.jpg" />
     <Content Include="Pictures\ITBody.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
