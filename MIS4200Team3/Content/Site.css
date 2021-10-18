@@ -1,13 +1,13 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
-    background-color: goldenrod;
+    background-image: url(../Pictures/Columbus.jpg);
 }
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
 
-    background-image: url(../Pictures/CentricBody.jpg);
+    background-image: url(../Pictures/ITBody.jpg);
     display: normal;
     background-size: cover;
     background-color: black;
@@ -34,7 +34,7 @@ textarea{
 }
 
 .navbar-inverse{
-    background-color: mediumpurple;
+    background-color: rebeccapurple;
 }
 
 .navbar-inverse .navbar-nav > li > a {
@@ -83,7 +83,7 @@ textarea{
 }
 
 .flip-box-front {
-    background-color: mediumpurple;
+    background-color: rebeccapurple;
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }

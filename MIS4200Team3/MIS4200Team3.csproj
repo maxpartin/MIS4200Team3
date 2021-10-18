@@ -196,6 +196,9 @@
     <Content Include="Pictures\CentricJumbotron2.jpg" />
     <Content Include="Pictures\CentricLogo.jpg" />
     <Content Include="Pictures\CentricWallpaper.jpg" />
+    <Content Include="Pictures\Columbus.jpg" />
+    <Content Include="Pictures\ColumbusSkyline.jpg" />
+    <Content Include="Pictures\ITBody.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
