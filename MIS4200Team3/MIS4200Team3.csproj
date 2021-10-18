@@ -194,6 +194,7 @@
     <Content Include="Pictures\CentricBody.jpg" />
     <Content Include="Pictures\CentricJumbotron.jpg" />
     <Content Include="Pictures\CentricJumbotron2.jpg" />
+    <Content Include="Pictures\CentricLogo.jpg" />
     <Content Include="Pictures\CentricWallpaper.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
