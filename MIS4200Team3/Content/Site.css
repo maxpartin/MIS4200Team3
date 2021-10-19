@@ -23,6 +23,38 @@
     background-image: url(../Pictures/CentricAbout.png);
     color: white;
 }
+
+/*Added some containers for the leaderboard*/
+.container1 {
+    width: 600px;
+    height: auto;
+}
+
+.row1 {
+    position: inherit;
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #AFAFAF;
+}
+
+.name {
+    position: relative;
+    display: inline-block;
+    width: 75%;
+    line-height: 45px;
+    color: white;
+}
+
+.score {
+    position: relative;
+    display: inline-block;
+    width: 25%;
+    color: white;
+}
+/*End of leaderboard css*/
+
+
 /*Nav Bar CSS*/
 textarea {
     max-width: 280px;
