@@ -1,15 +1,17 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background-image: url(../Pictures/Columbus.jpg);
 }
 
 /* Set padding to keep content from hitting the edges */
+/*Added animation and color to background*/
 .body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+    background-image: url(../Pictures/ITBody.jpg)
+
 }
 
-/* Override the default bootstrap behavior where horizontal description lists 
+    /* Override the default bootstrap behavior where horizontal description lists 
    will truncate terms that are too long to fit in the left column 
 */
 .dl-horizontal dt {
@@ -18,10 +20,58 @@
 
 .jumbotron {
     background-size: cover;
+    background-image: url(../Pictures/CentricAbout.png);
+    color: white;
 }
 
+/*Added some containers for the leaderboard*/
+.container1 {
+    width: 600px;
+    height: auto;
+}
+
+.row1 {
+    position: inherit;
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #AFAFAF;
+}
+
+.name {
+    position: relative;
+    display: inline-block;
+    width: 75%;
+    line-height: 45px;
+    color: white;
+}
+
+.score {
+    position: relative;
+    display: inline-block;
+    width: 25%;
+    color: white;
+}
+/*End of leaderboard css*/
 
 
+/*Nav Bar CSS*/
+textarea {
+    max-width: 280px;
+}
+
+.navbar-inverse {
+    background-color: #2C1B5E;
+}
+
+    .navbar-inverse .navbar-nav > li > a {
+        color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
+
+    .navbar-inverse .navbar-brand {
+        color: white;
+    }
 /*Changing center to position text in the middle of flip boxes*/
 .center {
     display: flex;
@@ -30,7 +80,6 @@
     height: 150px;
     background: #999FF0;
 }
-
 /*Flip box Css edit to change size and movement*/
 .flip-box {
     background-color: transparent;
@@ -60,22 +109,19 @@
 }
 
 .flip-box-front {
-    background-color: mediumpurple;
+    background-color: #2C1B5E;
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 .flip-box-back {
-    background-color: ghostwhite;
-    color: black;
+    background-color: #FBB925;
+    color: white;
     transform: rotateY(180deg);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
-
-
 /* Set width on the form input elements since they're 100% wide by default */
-input,
-select,
-textarea {
+input, select, textarea {
     max-width: 280px;
 }
+    

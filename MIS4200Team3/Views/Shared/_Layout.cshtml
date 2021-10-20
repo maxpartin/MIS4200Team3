@@ -17,7 +17,8 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("Centric Consulting", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                <a Href="~/Home/Index"><img src="../Pictures/CentricLogo.jpg" height="50px" /></a>
+                @*@Html.ActionLink("Centric Consulting", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })*@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
@@ -33,7 +34,8 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - Team 3</p>
+            <p style="color:white">&copy; @DateTime.Now.Year - Team 3
+            </p>
         </footer>
     </div>
 
