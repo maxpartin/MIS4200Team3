@@ -13,14 +13,14 @@ namespace MIS4200Team3.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Recognize()
         {
             ViewBag.Message = "Your application description page.";
 
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult Profile()
         {
             ViewBag.Message = "Your contact page.";
 

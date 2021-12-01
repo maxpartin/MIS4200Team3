@@ -19,5 +19,7 @@ namespace MIS4200Team3.DAL
 
         public System.Data.Entity.DbSet<MIS4200Team3.Models.Profile> Profiles { get; set; }
 
-        public System.Data.Entity.DbSet<MIS4200Team3.Models.Award> Awards { get; set; }
+
     }
+}
+
