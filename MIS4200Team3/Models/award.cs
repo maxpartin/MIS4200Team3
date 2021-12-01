@@ -6,7 +6,7 @@ using System.Web;
 
 namespace MIS4200Team3.Models
 {
-    public class award
+    public class Award
     {
         public int ID { get; set; }
         [Display(Name ="Core value recognized")]
