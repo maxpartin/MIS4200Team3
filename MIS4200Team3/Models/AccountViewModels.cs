@@ -80,23 +80,6 @@ namespace MIS4200Team3.Models
         [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
         public string ConfirmPassword { get; set; }
 
-        [Required]
-        [Display(Name = "First Name")]
-        public string firstName { get; set; }
-
-        [Required]
-        [Display(Name = "Last Name")]
-        public string lastName { get; set; }
-
-        [Required]
-        [Display(Name = "Business Unit")]
-        public string businessUnit { get; set; }
-
-        [Required]
-        [DataType(DataType.Date)]
-        [Display(Name = "Date Hired")]
-        public string dateHired { get; set; }
-
     }
 
     public class ResetPasswordViewModel
