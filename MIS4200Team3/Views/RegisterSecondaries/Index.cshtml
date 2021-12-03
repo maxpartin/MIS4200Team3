@@ -31,7 +31,9 @@
 
 @foreach (var item in Model) {
     <tr>
-        <td>
+
+        <td class="col-lg-1">
+            <a href="~/home/about" class="btn btn-primary" role="button"> <b>Recognize</b></a>
             @Html.DisplayFor(modelItem => item.firstName)
         </td>
         <td>
