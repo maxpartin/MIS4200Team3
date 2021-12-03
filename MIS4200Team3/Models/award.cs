@@ -24,7 +24,8 @@ namespace MIS4200Team3.Models
             Stewardship = 3,
             Innovate = 4,
             Balance = 5,
-            Culture = 6
+            Culture = 6,
+            Passion = 7
         }
 
     }
