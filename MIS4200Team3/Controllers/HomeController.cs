@@ -25,6 +25,11 @@ namespace MIS4200Team3.Controllers
             ViewBag.Message = "Your contact page.";
 
             return View();
+        } 
+        public ActionResult Contact()
+        {
+            ViewBag.Message = "Contact Us.";
+            return View();
         }
     }
 }
