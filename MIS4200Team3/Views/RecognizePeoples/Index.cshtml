@@ -1,0 +1,57 @@
+﻿@model IEnumerable<MIS4200Team3.Models.RecognizePeople>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.recognizerFirstName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.recognizerLastName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.recognizeeFirstName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.recognizeeLastName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Values)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.recognizerFirstName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.recognizerLastName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.recognizeeFirstName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.recognizeeLastName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Values)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.RecognizePeopleID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.RecognizePeopleID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.RecognizePeopleID })
+        </td>
+    </tr>
+}
+
+</table>
