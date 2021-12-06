@@ -8,8 +8,7 @@
 /* Set padding to keep content from hitting the edges */
 /*Added animation and color to background*/
 .body-content {
-    background-image: url(../Pictures/ITBody.jpg)
-
+    background-color: #2A447F;
 }
 
     /* Override the default bootstrap behavior where horizontal description lists 
