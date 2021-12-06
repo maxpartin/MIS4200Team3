@@ -7,5 +7,6 @@
 <h3 style="color:white">The profile page</h3>
 
 <div>
-    <p>Email: @ViewBag.Email </p> 
+    <p>Email: @Html.ViewContext.HttpContext.User.Identity.Name </p>
+    <p></p>
 </div>

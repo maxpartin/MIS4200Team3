@@ -13,7 +13,7 @@ namespace MIS4200Team3.Models
         public CoreValue award { get; set; }
         [Display(Name ="Person giving recognition")]
         public string recognizor { get; set; }
-        [Display(Name ="Person reciving the recognition")]
+        [Display(Name = "Person receiving the recognition")]
         public string recognized { get; set; }
         [Display(Name = "Date recognition given")]
         public DateTime recognizationDate { get; set; }
