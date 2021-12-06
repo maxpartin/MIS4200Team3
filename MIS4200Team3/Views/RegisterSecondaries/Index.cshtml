@@ -6,9 +6,7 @@
 
 <h2>Recognize</h2>
 
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
+
 <table class="table">
     <tr>
         <th>
@@ -35,7 +33,7 @@
 @foreach (var item in Model) {
 <tr>
     <td class="col-lg-1">
-        <a href="~/Awards/Create" class="btn btn-primary" role="button"> <b>Recognize</b></a>
+        <a href="~/RecognizePeoples/Create" class="btn btn-primary" role="button"> <b>Recognize</b></a>
     </td>
     <td>
         @Html.DisplayFor(modelItem => item.firstName)
